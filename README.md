@@ -39,7 +39,7 @@ from math import factorial
 
 ```python
 def poisson_probability(lambd, x):
-    return ((lambd)**x * (np.exp(-x))) / factorial(x)
+    pass
 ```
 
 ### Question 1
@@ -48,13 +48,10 @@ A fireman fights, on average, 4 fires per month. What is the probability that a 
 
 
 ```python
-lambd_q1 = 4 / 4
-prob_q1 = poisson_probability(lambd_q1, 2)
+lambd_q1 = None
+prob_q1 = None
 print(prob_q1)
 ```
-
-    0.06766764161830635
-    
 
 ### Question 2
 
@@ -62,13 +59,10 @@ A car salesman sells an average of 4 cars per week.  What is the probability the
 
 
 ```python
-lambd_q2 = 4 / 7
-prob_q2 = poisson_probability(lambd_q2, 1)
+lambd_q2 = None
+prob_q2 = None
 print(prob_q2)
 ```
-
-    0.21021682352653848
-    
 
 ### Question 3
 
@@ -76,13 +70,10 @@ A website makes an average of 50 sales per day.  What is the probability that th
 
 
 ```python
-lambd_q3 = 50 / 24
-prob_q3 = poisson_probability(lambd_q3, 3)
+lambd_q3 = None
+prob_q3 = None
 print(prob_q3)
 ```
-
-    0.07503114807560515
-    
 
 ### Question 4
 
@@ -90,13 +81,10 @@ A factory produces 250 cars per week (assume that the factory runs day and night
 
 
 ```python
-lambd_q4 = 250 / (24 * 7 )
-prob_q4 = poisson_probability(lambd_q4, 3)
+lambd_q4 = None
+prob_q4 = None
 print(prob_q4) 
 ```
-
-    0.02734371285554123
-    
 
 ### Question 5
 
@@ -111,16 +99,11 @@ The following table shows the number of houses sold by a realtor each week for t
 
 
 ```python
-mean_weekly_sales = (6+2+5+4)  / 4 
-print(mean_weekly_sales)
-lambd_q5 = mean_weekly_sales # Already in weekly format, no need to reduce further
-prob_q5 = poisson_probability(lambd_q5, 3)
+mean_weekly_sales = None
+lambd_q5 = None 
+prob_q5 = None
 print(prob_q5)
 ```
-
-    4.25
-    0.6369892366961343
-    
 
 # Conclusion
 
