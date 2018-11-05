@@ -12,11 +12,11 @@ You will be able to:
 * Understand and explain the Poisson Distribution and its use cases.
 
 
-### Instructions
+## Instructions
 
 Solve the following sample problems by using python and your knowledge of the Poisson Distribution.
 
-### Getting Started
+## Getting Started
 
 Good Data Scientists plan ahead! Since you're going to be solving Poisson Distribution problems in this lab, it's probably a good idea to write a function that calculates Poisson Probability for us first. 
 
@@ -42,7 +42,7 @@ def poisson_probability(lambd, x):
     return ((lambd)**x * (np.exp(-x))) / factorial(x)
 ```
 
-### Question 1
+## Question 1
 
 A fireman fights, on average, 4 fires per month. What is the probability that a fireman is called to two different fires this week?
 
@@ -54,9 +54,9 @@ print(prob_q1)
 ```
 
     0.06766764161830635
-    
 
-### Question 2
+
+## Question 2
 
 A car salesman sells an average of 4 cars per week.  What is the probability they sell a car today?
 
@@ -68,9 +68,9 @@ print(prob_q2)
 ```
 
     0.21021682352653848
-    
 
-### Question 3
+
+## Question 3
 
 A website makes an average of 50 sales per day.  What is the probability that they make 3 sales in an hour? 
 
@@ -82,9 +82,9 @@ print(prob_q3)
 ```
 
     0.07503114807560515
-    
 
-### Question 4
+
+## Question 4
 
 A factory produces 250 cars per week (assume that the factory runs day and night all week with no down time). What is the probability that they produce 3 cars in the next hour?
 
@@ -96,9 +96,9 @@ print(prob_q4)
 ```
 
     0.02734371285554123
-    
 
-### Question 5
+
+## Question 5
 
 The following table shows the number of houses sold by a realtor each week for the month of May. What is the probability that they sell 3 houses next week?
 
@@ -120,8 +120,8 @@ print(prob_q5)
 
     4.25
     0.6369892366961343
-    
 
-# Conclusion
+
+## Summary
 
 In this lab, we got some practice making use of our knowledge of the Poisson Distribution to answer some real-world questions!
