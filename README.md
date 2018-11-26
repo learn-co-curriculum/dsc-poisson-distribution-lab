@@ -22,7 +22,7 @@ Good Data Scientists plan ahead! Since you're going to be solving Poisson Distri
 
 Recall that the Poisson Probability Formula is:
 
-$$p(x) = \frac{\lambda^xe^{-x}}{x!}$$
+$$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
 Write a generalized that takes in the appropriate parameters and returns the Poisson Probability.
 
@@ -50,7 +50,7 @@ A fireman fights, on average, 4 fires per month. What is the probability that a 
 ```python
 lambd_q1 = None
 prob_q1 = None
-print(prob_q1)  # Expected Output:  0.06766764161830635
+print(prob_q1)  # Expected Output:  0.18393972058572117
 ```
 
 ## Question 2
@@ -61,7 +61,7 @@ A car salesman sells an average of 4 cars per week.  What is the probability the
 ```python
 lambd_q2 = None
 prob_q2 = None
-print(prob_q2)  # Expected Output: 0.21021682352653848
+print(prob_q2)  # Expected Output: 0.32269606971871956
 ```
 
 ## Question 3
@@ -72,7 +72,7 @@ A website makes an average of 50 sales per day.  What is the probability that th
 ```python
 lambd_q3 = None
 prob_q3 = None
-print(prob_q3)  # Expected Output: 0.07503114807560515
+print(prob_q3)  # Expected Output: 0.18764840049328912
 ```
 
 ## Question 4
@@ -83,7 +83,7 @@ A factory produces 250 cars per week (assume that the factory runs day and night
 ```python
 lambd_q4 = None
 prob_q4 = None
-print(prob_q4)   # Expected Output: 0.02734371285554123
+print(prob_q4)   # Expected Output: 0.1240136186052091
 ```
 
 ## Question 5
@@ -102,7 +102,7 @@ The following table shows the number of houses sold by a realtor each week for t
 mean_weekly_sales = None
 lambd_q5 = None 
 prob_q5 = None
-print(prob_q5)  # Expected Output: 0.6369892366961343
+print(prob_q5)  # Expected Output: 0.18250047186175347
 ```
 
 ## Summary
