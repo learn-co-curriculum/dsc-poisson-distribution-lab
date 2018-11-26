@@ -22,7 +22,7 @@ Good Data Scientists plan ahead! Since you're going to be solving Poisson Distri
 
 Recall that the Poisson Probability Formula is:
 
-$$p(x) = \frac{\lambda^xe^{-x}}{x!}$$
+$$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
 Write a generalized that takes in the appropriate parameters and returns the Poisson Probability.
 
@@ -39,7 +39,7 @@ from math import factorial
 
 ```python
 def poisson_probability(lambd, x):
-    return ((lambd)**x * (np.exp(-x))) / factorial(x)
+    return ((lambd)**x * (np.exp(-lambd))) / factorial(x)
 ```
 
 ## Question 1
@@ -53,7 +53,7 @@ prob_q1 = poisson_probability(lambd_q1, 2)
 print(prob_q1)
 ```
 
-    0.06766764161830635
+    0.18393972058572117
 
 
 ## Question 2
@@ -67,7 +67,7 @@ prob_q2 = poisson_probability(lambd_q2, 1)
 print(prob_q2)
 ```
 
-    0.21021682352653848
+    0.32269606971871956
 
 
 ## Question 3
@@ -81,7 +81,7 @@ prob_q3 = poisson_probability(lambd_q3, 3)
 print(prob_q3)
 ```
 
-    0.07503114807560515
+    0.18764840049328912
 
 
 ## Question 4
@@ -95,7 +95,7 @@ prob_q4 = poisson_probability(lambd_q4, 3)
 print(prob_q4) 
 ```
 
-    0.02734371285554123
+    0.1240136186052091
 
 
 ## Question 5
@@ -119,7 +119,7 @@ print(prob_q5)
 ```
 
     4.25
-    0.6369892366961343
+    0.18250047186175347
 
 
 ## Summary
