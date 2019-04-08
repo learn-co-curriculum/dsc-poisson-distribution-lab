@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lab, we'll put our knowledge of the Poisson Distribution to use to answer solve some sample real-world problems!
+In this lab, you'll put your knowledge of the Poisson Distribution to use to answer solve some sample real-world problems!
 
 ## Objectives
 
