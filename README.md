@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lab, you'll put your knowledge of the Poisson Distribution to use to answer solve some sample real-world problems!
+In this lab, you'll put your knowledge of the Poisson Distribution to use to solve some sample real-world problems!
 
 ## Objectives
 
@@ -14,17 +14,17 @@ You will be able to:
 
 ## Instructions
 
-Solve the following sample problems by using python and your knowledge of the Poisson Distribution.
+Solve the following sample problems by using Python and your knowledge of the Poisson Distribution.
 
 ## Getting Started
 
-Good Data Scientists plan ahead! Since you're going to be solving Poisson Distribution problems in this lab, it's probably a good idea to write a function that calculates Poisson Probability for us first. 
+Good Data Scientists plan ahead! Since you're going to be solving Poisson Distribution problems in this lab, it's probably a good idea to write a function that calculates Poisson Probabilities for us first. 
 
 Recall that the Poisson Probability Formula is:
 
 $$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
-Write a generalized that takes in the appropriate parameters and returns the Poisson Probability.
+Write a generalized function that takes in the appropriate parameters and returns the Poisson Probability.
 
 **_NOTE:_**  You can use `np.exp()` to quickly calculate $e$, and `math.factorial` (from the `math` library, not numpy) to calculate factorials. 
 
