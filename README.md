@@ -9,7 +9,7 @@ In this lab, you will put your knowledge of the Poisson Distribution to use to s
 
 You will be able to:
 
-* Understand and explain the Poisson Distribution and its use cases.
+* Calculate the probabilities of certain events that follow a Poisson distribution
 
 
 ## Instructions
